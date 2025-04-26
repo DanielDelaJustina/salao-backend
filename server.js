@@ -28,6 +28,12 @@ let agendas = [
     cliente: 'Pedro', 
     servico: 'Barba', 
     dataHora: new Date(Date.now() + 86400000).toISOString() // Amanhã
+  },
+  { 
+    id: 4, 
+    cliente: 'Daniel', 
+    servico: 'Barba e Cabelo', 
+    dataHora: new Date(Date.now() + 86400000).toISOString() // Amanhã
   }
 ];
 
